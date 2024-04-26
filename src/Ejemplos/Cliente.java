@@ -8,7 +8,7 @@ public class Cliente implements Comparable<Cliente> {
 	String nombre;
 	LocalDate fechaNacimiento;
 
-	Cliente(String dni, String nombre, String fechaNacimiento) {
+	public Cliente(String dni, String nombre, String fechaNacimiento) {
 		this.dni = dni;
 		this.nombre = nombre;
 		this.fechaNacimiento = LocalDate.parse(fechaNacimiento);
